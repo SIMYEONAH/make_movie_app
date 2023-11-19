@@ -4,10 +4,7 @@ import '../models/movie_model.dart';
 
 class MovieDetail extends StatelessWidget {
   final Movie movie;
-  const MovieDetail({
-    super.key,
-    required this.movie,
-  });
+  const MovieDetail(this.movie, {Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

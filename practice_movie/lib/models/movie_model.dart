@@ -1,7 +1,7 @@
 class Movie {
   final String title;
   final String image;
-  final String index;
+  final int index;
 
   Movie({
     required this.title,
